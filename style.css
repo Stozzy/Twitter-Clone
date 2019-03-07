@@ -1,0 +1,22 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+ul {
+    list-style-type: none;
+    height: auto;
+    background: lightgray;
+    padding: 5px;
+    margin: auto;
+}
+
+ul > li {
+    padding: 5px;
+    margin: 5px;
+    background: lightblue;
+    border-radius: 10px;
+}
