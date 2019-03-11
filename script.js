@@ -10,7 +10,7 @@ const data = JSON.parse(localStorage.getItem('items'));
 const liMaker = (text) => {
   let li = document.createElement('li');
   li.textContent = text;
-  ul.appendChild(li);
+  ul.prepend(li);
 }
 
 form.addEventListener('submit', function (e) {
