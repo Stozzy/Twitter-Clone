@@ -28,6 +28,7 @@ data.forEach((item) => {
   liMaker(item);
 });
 
+
 button.addEventListener('click', function () {
   localStorage.clear();
   while (ul.firstChild) {

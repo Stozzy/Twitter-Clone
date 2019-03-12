@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
         <link rel="stylesheet" href="/style.css">
 
         <title>Chirp</title> 
@@ -12,18 +11,19 @@
     <body>
         <div class="small-container">
             <h1>@ManboldCometh</h1>
-
+            
             <form>
-              <input class="post-text" id="item" type="text" maxlength="100" placeholder="What's happening?">
+                <input class="post-text" id="item" type="text" maxlength="100" placeholder="What's happening?">
             </form>
 
             <h2>chirps of the past</h2>
             
             <ul></ul>
             
-            <button hidden>Clean slate</button>
+            <button type="button" id="clear-history">Clear History</button>
+        
+            <script src="/script.js"></script>
         </div>
         
-        <script src="/script.js"></script>
     </body>
 </html>
