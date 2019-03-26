@@ -1,29 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/style.css">
-
         <title>Chirp</title> 
     </head>
-    
     <body>
-        <div class="small-container">
-            <h1>@ManboldCometh</h1>
-            
-            <form>
-                <input class="post-text" id="item" type="text" maxlength="100" placeholder="What's happening?">
-            </form>
+        <div class="wrapper">
+            <section id='post-section'>
+                <h1>@ManboldCometh</h1>
+                <form id='add-post'>
+                    <input type="text" maxlength="140" placeholder="What's happening?">
+                </form>            
+            </section>
 
-            <h2>chirps of the past</h2>
+            <section id='post-history'>
+                <h2>chirps of the past</h2>
+                <ul></ul>
+            </section>
             
-            <ul></ul>
-            
-            <button type="button" id="clear-history">Clear History</button>
-        
             <script src="/script.js"></script>
         </div>
-        
     </body>
 </html>
