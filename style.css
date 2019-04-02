@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aqua;
+}
+
+body {
+    background-color: #3D7FBA;
 }
 
 .wrapper {
@@ -13,7 +16,7 @@
     text-align: center;
     font-family: "Open Sans", sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    background-color: #58B7AF;
 }
 
 section {
@@ -24,15 +27,40 @@ section {
 .user-input {
     height: 30px;
     width: 80%;
+    margin-top: 10px;
     font-size: 15px;
     background: #b2ffff;
 }
 
-ul > li {
-    list-style: none;
-    padding: 10px;
-    text-align: left;
 
+ul {
+    list-style-type: none;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    display: inline;
 }
 
+ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 10px 0px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
 
+button {
+    height: 30px;
+    width: 50px;
+    color: white;
+    background: #8C2B5A;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #2B5A8C;
+    cursor: pointer;
+    transition: background-color 1.5s ease-out;
+}
